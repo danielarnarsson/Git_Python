@@ -12,3 +12,4 @@ eftirnafn=input("Eftirnafn: ")
 print("Halló " + fornafn +" "+ eftirnafn)
 
 #Daemi 3
+text=input("Sláðu inn texta.")
