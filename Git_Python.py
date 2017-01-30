@@ -12,4 +12,7 @@ eftirnafn=input("Eftirnafn: ")
 print("Halló " + fornafn +" "+ eftirnafn)
 
 #Daemi 3
-text=input("Sláðu inn texta.")
+text=input("Sláðu inn texta. ")
+hastafir=sum(1 for c in text if c.isupper())
+lagstafir
+print("Í þessum texta eru " + hastafir + ", " + lagstafir + " og " + " lágstafir koma strax á eftir hástaf.")
