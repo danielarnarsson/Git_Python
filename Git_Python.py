@@ -1,3 +1,4 @@
+
 #Daemi 1
 tala1=int(input("Sláðu inn tölu "))
 tala2=int(input("Sláðu inn aðra tölu "))
@@ -15,4 +16,11 @@ print("Halló " + fornafn +" "+ eftirnafn)
 text=input("Sláðu inn texta. ")
 hastafir=sum(1 for c in text if c.isupper())
 lagstafir=sum(1 for c in text if c.islower())
-print("Í þessum texta eru ", hastafir, " hastafir, ", lagstafir, " lágstafir og ")
+'''
+count=0
+lageftirha=text.isupper() and text.islower() in text.char(2)
+for lageftirha in text:
+    count=count+1
+print(count)
+'''
+print("Í þessum texta eru ", hastafir, " hastafir, ", lagstafir, " lágstafir og... ",)
